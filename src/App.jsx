@@ -4,58 +4,35 @@ const App = () => {
   return (
     <div>
       
-     <p class="text-black">Tailwind is awesome</p>
-     <p class="text-white">Tailwind is awesome</p>
-     <p class="text-red-900">Tailwind is awesome</p>
+     <div className="container bg-red-300 d-flex justify-items-center mb-6 p-4 mx-auto">
+     <p class="text-black text-4xl">This text is 4xl</p>
+     <p class="text-white text-3xl">Tailwind is 3xl</p>
+     <p class="text-red-900 text-2xl">Tailwind is 2xl</p>
      <p class="text-green-900">Tailwind is awesome</p>
      <p class="text-zink-900">Tailwind is awesome</p>
      <p class="text-emerald-900">Tailwind is awesome</p>
      <p class="text-lime-900">Tailwind is awesome</p>
+     </div>
 
   
 
-    <p class="bg-teal-200">Tailwind is awesome</p>
+   <div className="container mx-auto mb-6 justify-items-center">
+   <p class="bg-teal-200">Tailwind is awesome</p>
      <p class="bg-blue-600 text-orange-300">Tailwind is awesome</p>
      <p class="bg-red-500">Tailwind is awesome</p>
      <p class="bg-zink-400">Tailwind is awesome</p>
      <p class="bg-emerald-400">Tailwind is awesome</p>
      <p class="bg-rose-900 text-white">Tailwind is awesome</p>
+   </div>
 
   
+    <div className="container mx-auto justify-items-center border border-blue-400">
     <p class="underline decoration-red-400">Tailwind is awesome</p>
+    </div>
 
 
     
-     <input class="border border-blue-400" type="text" />
-     <input class="border border-orange-400" type="text" />
 
-
-    
-     <div class="divide-y divide-blue-400">
-      <div>Item</div>
-      <div>Item2</div>
-      <div>Item3</div>
-      <div>Item4</div>
-
-     </div>
-
-    
-
-    <button class="outline outline-blue-300">Submit form </button>
-
-  
-     <div class="shadow-lg bg-cyan-500 shadow-cyan-500">
-       Subscrible here
-     </div>
-
-     <button class="shadow-lg bg-cyan-500 shadow-purple-500/60"> Hello Shadow </button>
-
-    
-
-    <input class="accent-purple-400" type="checkbox" checked />
-
-    
-     <div class="bg-[#427fab]">Hello</div>
 
     </div>
   )
